@@ -10,17 +10,19 @@ Grandes telas: acima de 1200px
 
 */
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
     background-color: #260101;
 }
 
-section#login{
+section#login {
     background-color: white;
     height: 500px;
     width: 300px;
@@ -33,12 +35,14 @@ section#login{
     box-shadow: 0px 0px 10px black;
 }
 
-div#img{
+div#img {
     background: black url(../img/pexels-harrison-haines-18853155.jpg);
     height: 200px;
     background-size: cover;
+    display: block;
 }
 
-#formul{
+#formul {
+    display: block;
     padding: 10px;
 }

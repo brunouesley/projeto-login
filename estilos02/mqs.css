@@ -2,6 +2,19 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login{
-        width: 98vw;
+        width: 90vw;
+        height: 50vh;
+
+    }
+    div#img{
+        float: left;
+        padding: 50px;
+        width: 40vw;
+        height: 100vh;
+        background-position: center center;
+    }
+    div#formul{
+        float: right;
+        padding: 10px;
     }
 }
