@@ -29,6 +29,7 @@ Grandes telas: acima de 1200px
 html,
 body {
     background-color: #260101;
+    height: 100vh;
 }
 
 section#login {
@@ -66,7 +67,7 @@ form#datas p {
     padding: 10px;
 }
 
-input[type=submit]{
+input[type=submit] {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -75,11 +76,11 @@ input[type=submit]{
     border: 1px solid #A61103;
 }
 
-input[type=submit]:hover{
+input[type=submit]:hover {
     background-color: #592b20;
 }
 
-.botao{
+.botao {
     display: block;
     width: 100%;
     padding: 10px;
@@ -91,16 +92,49 @@ input[type=submit]:hover{
     border: 1px solid #A61103;
     margin-top: 5px;
 }
-.botao:hover{
+
+.botao:hover {
     background-color: #eb7156dc;
     color: white;
 }
-.botao span{
+
+.botao span {
     font-size: .8em;
 }
-.campo{
-    background-color: #F7620F;
-    padding: 10px;
+
+form div.campo {
+    width: 100%;
+    background-color: #5e0404;
+    padding: 4px;
     margin: 5px;
     border-radius: 5px;
+    margin: 5px auto;
+}
+
+form div.campo input {
+    background-color: #e49583;
+    padding: 10px;
+    border-radius: 5px;
+    width: 243px;
+    border: 0;
+
+}
+
+form div.campo input:hover {
+    background-color: #b77566;
+}
+
+form div.campo span {
+    color: white;
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    font-size: .8em;
+    margin: 5px;
 }
